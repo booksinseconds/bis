@@ -1,0 +1,188 @@
+.maintable {
+  border: 0px solid;
+  width: 100%;
+}
+
+.maintable td {
+  border: 0px solid;
+}
+
+.toptable {
+  border: 0px solid;
+  width: 100%;
+}
+
+.toptable td {
+  border: 0px solid;
+}
+
+.toptable_topcol {
+  font-size:20px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.toptable_midcol {
+  height:90px;
+  background-color:#996600;
+  font-size:60px;
+  text-align:center;
+  vertical-align: middle;
+  color:#00CC00;
+}
+
+.midtable {
+  border: 0px solid;
+  width: 100%;
+}
+
+.midtable td {
+  border: 0px solid;
+  background-color: white;
+}
+
+.booksTableClass {
+  margin: auto;
+}
+
+.menutable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menutable td {
+  width: 150px;
+  text-align:center;
+  vertical-align: middle;
+}
+
+.menulink:link {
+  color: black;
+  text-decoration: none;
+}
+
+.menulink:active {
+  color: black;
+  text-decoration: none;
+}
+
+.menulink:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.menulink:hover {
+  color: #00CC00;
+  text-decoration: underline;
+}
+
+.bookBriefClass {
+  width: 510px;
+}
+
+.buttonCloseDetailsClass {
+  horizontal-align: middle;
+  display: block;
+  margin:auto;
+}
+
+.bottomDivClass {
+  background-color: #00CC00;
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: center;
+  font-size: 0.80em;
+}
+
+.crClass {
+  font-size: 0.80em;
+}
+
+.sepClass {
+  height: 1px;
+  background-color: white;
+}
+
+.sepClass2 {
+  height: 2px;
+  background-color: white;
+}
+
+.sepClass3 {
+  height: 3px;
+  background-color: white;
+}
+
+.sepClass5 {
+  height: 5px;
+  background-color: white;
+}
+
+.menuLine {
+  height: 0.5px;
+  background-color: black;
+}
+
+.spanBookTitleHeaderClass, .spanBookAuthorHeaderClass, .spanBookPriceHeaderClass, .spanBookConditionHeaderClass {
+  font-weight: bold;
+}
+
+.spanBookTitleClass, .spanBookAuthorClass, .spanBookPriceClass, .spanBookConditionClass {
+  color: black;
+}
+
+.ftNoteMention {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+.noteClass {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.divBigImageClass {
+      width: 400px;
+      height: 400px;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+
+  .divBigImageClass img {
+      width: 390px;
+      height: 390px;
+      transition: 0.5s all ease-in-out;
+  }
+
+  .divBigImageClass:hover img {
+      transform: scale(1.5);
+  }
+
+  .aboutMidTableTd {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .aboutWelcome {
+    font-size: 1.2em;
+  }
+
+  .aboutQuote {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .aboutQuoteAuthor {
+    font-size: 1.05em;
+    font-style: italic;
+    font-weight: normal;
+  }
+
+  .aboutContent {
+    font-size: 1.2em;
+  }
+
+  .pirNotice {
+    font-size: 1.2em;
+    font-style: italic;
+  }

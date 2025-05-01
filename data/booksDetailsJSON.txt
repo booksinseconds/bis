@@ -1,0 +1,92 @@
+[
+ {
+  "bookId":"1",
+  "bookTitle":"Atomic Habits",
+  "bookAuthor":"James Clear",
+  "bookPublisher":"Penguin",
+  "bookPrice":"249",
+  "bookActualPrice":"799",
+  "bookDiscountPercent":"40",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"2",
+  "bookTitle":"Asterix in Belgium",
+  "bookAuthor":"René Goscinny",
+  "bookPublisher":"Hachette",
+  "bookPrice":"69",
+  "bookActualPrice":"499",
+  "bookDiscountPercent":"40",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"3",
+  "bookTitle":"Dream Factory",
+  "bookAuthor":"SUJATHA,Madhavan Narayanan",
+  "bookPublisher":"HARPERPERENNIAL",
+  "bookPrice":"64",
+  "bookActualPrice":"399",
+  "bookDiscountPercent":"45",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"4",
+  "bookTitle":"Himalayan Birds on Stamps",
+  "bookAuthor":"M. Lokeswara Rao",
+  "bookPublisher":"The Write Order",
+  "bookPrice":"250",
+  "bookActualPrice":"1599",
+  "bookDiscountPercent":"70",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"5",
+  "bookTitle":"Letting go of nothing",
+  "bookAuthor":"Peter Russel",
+  "bookPublisher":"Yogi Impressions",
+  "bookPrice":"55",
+  "bookActualPrice":"350",
+  "bookDiscountPercent":"40",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"6",
+  "bookTitle":"Of Mystics and Mistakes",
+  "bookAuthor":"Sadhguru",
+  "bookPublisher":"JAICO",
+  "bookPrice":"51",
+  "bookActualPrice":"275",
+  "bookDiscountPercent":"25",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"7",
+  "bookTitle":"Running with Purpose",
+  "bookAuthor":"Jim weber",
+  "bookPublisher":"HarperCollins Leadership",
+  "bookPrice":"66",
+  "bookActualPrice":"402",
+  "bookDiscountPercent":"45",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"8",
+  "bookTitle":"Shark Tank India",
+  "bookAuthor":"Shark Tank India, Prerna Lidhoo",
+  "bookPublisher":"Juggernaut",
+  "bookPrice":"64",
+  "bookActualPrice":"399",
+  "bookDiscountPercent":"45",
+  "bookNotes":"Good"
+ },
+ {
+  "bookId":"9",
+  "bookTitle":"The Color of Magic",
+  "bookAuthor":"Terry Pratchett",
+  "bookPublisher":"Corgi Books",
+  "bookPrice":"64",
+  "bookActualPrice":"399",
+  "bookDiscountPercent":"45",
+  "bookNotes":"Good"
+ }
+]

@@ -1,0 +1,137 @@
+<htmL>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>bis</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <script src="scripts/books.js"></script>
+    <script src="scripts/main.js"></script>
+  </head>
+  <body>
+    <table class="maintable">
+      <tr>
+        <td>
+          <table class="toptable">
+            <tr><td class="toptable_topcol">Books in Seconds!</td></tr>
+            <tr>
+              <td class="toptable_midcol">B:S</td>
+              </tr>
+            <tr>
+              <td>
+                <table class="menutable">
+                  <tr>
+                    <td>
+                      <a href="index.htm" class="menulink">Books</a>
+                    </td>
+                    <td>
+                      <a href="blog.htm" class="menulink">Blog</a>
+                    </td>
+                    <td>
+                      <a href="about.htm" class="menulink">About</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="sepClass"></div>
+                <div class="menuLine"></div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="midtable">
+            <tr>
+              <td>
+              </td>
+              <td class="midtable_rightcol">
+                <table class="booksTableClass" id="booksTable">
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="bottomDivClass">
+            <p>Delivery can take upto 7 days within India. Returns, replacements or refunds are not accepted.</p>
+            <p>Get in touch at getbooksinseconds@gmail.com.</p>
+            <div class="sepClass"></div>
+            <p class="crClass"> 2023-2024 B:S </p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <dialog id="bookDetailsDialog">
+      <table class="bookDetailsTableClass">
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td>
+                        <img id="imgFront" src=""  width="100px" height="100px">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img id="imgWalk" src=""  width="100px" height="100px">
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img id="imgBack" src=""  width="100px" height="100px">
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                    <div class="divBigImageClass">
+                      <img id="imgActualSized" src="">
+                    </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="bookBriefClass" id="bookBrief">
+              <p>
+                <span class="spanBookTitleHeaderClass">Title </span>
+                <span class="spanBookTitleClass" id="spanBookTitle"></span>
+              </p>
+              <p>
+                <span class="spanBookAuthorHeaderClass">Author </span>
+                <span class="spanBookAuthorClass" id="spanBookAuthor"></span>
+              </p>
+              <p>
+                <span class="spanBookPriceHeaderClass">Price </span>
+                <span class="spanBookPriceClass" id="spanBookPrice"></span><span class="ftNoteMention">*<span>
+              </p>
+              <p>
+                <span class="spanBookConditionHeaderClass">Condtion </span>
+                <span class="spanBookConditionClass" id="spanBookCondition"></span>
+              </p>
+              <p><span class="ftNoteMention">*</span><span class="noteClass">Shipping is free!</span></p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td class="bdtLastCellClass">
+            <button class="buttonCloseDetailsClass" onclick="closeDetails()">Close</button>
+          </td>
+        </tr>
+      </table>
+    </dialog>
+    <script>
+      booksLoader();
+    </script>
+  </body>
+</html>
